@@ -15,7 +15,7 @@ var promise = new Promise((resolve, reject) => {
     return;
    }
     if (age < 18) {
-      reject(`Oh sorry ${name}. You aren't old enough`);
+      reject(`Oh sorry ${name}. You aren't old enough.`);
     } else {
       resolve(`Welcome, ${name}. You can vote.`);
     }
